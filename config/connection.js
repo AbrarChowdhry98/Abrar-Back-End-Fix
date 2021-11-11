@@ -9,7 +9,6 @@ const sequelize = process.env.JAWSDB_URL
       user:'root',
       password:'2197',
       dialect: 'mysql',
-      database: 'ecommerce_db',
       dialectOptions: {
         decimalNumbers: true,
       },
